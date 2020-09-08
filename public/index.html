@@ -7,6 +7,7 @@
         <title>Simple Chat Application</title>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 
         <link rel="stylesheet" type="text/css" href="style.css"/>
 
@@ -26,7 +27,12 @@
 
             <input id="textName" type="text" placeholder="Name"/>
 
-            <input id="textMsg" type="message" placeholder="Message"/>
+            <!-- <input id="textMsg" type="message" placeholder="Message"/> -->
+
+            <div class="ui icon input" style="width: 598px; ">
+                <input id="textMsg" type="message" placeholder="Message" style="font-family: Nunito;">
+                <i class="file image outline icon" id="uploadImage" name="image"></i>
+            </div>
 
             <button id="send">Send</button>
 

@@ -10,6 +10,7 @@ var outputMsg = document.getElementById("output")
 
 var textFeedback = document.getElementById("feedback")
 
+var imageUpload = document.getElementById("uploadImage")
 
 //Function for submiting the message
 //onclick function
@@ -42,5 +43,13 @@ socket.on("chat", function(data){
 socket.on("typing", function(data){
 
     textFeedback.innerHTML = '<p><em>' + data + '&nbspis typing ........ </em></p>';
+
+});
+
+
+//Impage upload functionality
+imageUpload.addEventListener("click", function(){
+
+    
 
 });
