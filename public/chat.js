@@ -48,8 +48,5 @@ socket.on("typing", function(data){
 
 
 //Impage upload functionality
-imageUpload.addEventListener("click", function(){
-
-    
-
-});
+//imageUpload.addEventListener("click", function(){
+//});
